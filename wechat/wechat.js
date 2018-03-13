@@ -115,7 +115,7 @@ WeChat.prototype.auth = function(req,res){
        //使用 Post 请求创建微信菜单
        that.requestPost(url,JSON.stringify(menus)).then(function(data){
               //将结果打印
-              console.log(data);
+              console.log(data + "menu");
        });
    });
 

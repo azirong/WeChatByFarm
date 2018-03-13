@@ -1,7 +1,7 @@
 {
-    "token":"wechat",
-    "appID":"wx154f****c764da",
-    "appScrect":"f5d8188610*******c3143b5d",
+    "token":"farm",
+    "appID":"wx9dad68746eaca383",
+    "appScrect":"6e79e2763ce3159f1d556795812a1a12",
     "encodingAESKey":"afPsLj0rV0yGBtZRyWpGWTGFgsrvI40XBCZrnwUURFk",
     "apiDomain":"https://api.weixin.qq.com/",
     "apiURL":{

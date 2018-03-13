@@ -1,3 +1,4 @@
+参考链接：https://cnodejs.org/topic/593668946b7ebe7e2979d8c6
 # Node.js 微信公众号开发 ![git start](https://img.shields.io/github/stars/silencehvk/wechatbynode.svg?style=social&label=Star) ![git fork](https://img.shields.io/github/forks/silencehvk/wechatbynode.svg?style=social&label=Fork) [![](https://img.shields.io/github/issues/silencehvk/wechatbynode.svg?style=social&label=Issues)](https://github.com/silencehvk/wechatbynode/issues) [![](https://img.shields.io/github/release/silencehvk/wechatbynode.svg?style=social&label=Releases)](https://github.com/silencehvk/wechatbynode/releases)
 
 ![node version](https://img.shields.io/badge/node-7.5.0-brightgreen.svg)

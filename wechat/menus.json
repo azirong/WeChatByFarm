@@ -1,17 +1,24 @@
 {
      "button":[
-        {	
-          "type":"view",
-          "name":"hvkcoder",
-           "url":"http://blog.csdn.net/hvkcoder"
-        },
+       {
+         "name":"智能监控",
+         "sub_button":[{
+                "type":"view",
+                "name":"仪器控制",
+                "url": "http://www.baidu.com"
+         },{
+           "type":"view",
+           "name":"环境监测",
+           "url":"http://140.143.12.124:8888/"
+         }]
+       },
         {	
           "type":"click",
-          "name":"今日推荐",
+          "name":"新闻资讯",
           "key":"today_recommend"
         },
         {	
-          "name":"小工具",
+          "name":"用户中心",
           "sub_button":[{
                "type": "scancode_waitmsg", 
                "name": "扫一扫",
