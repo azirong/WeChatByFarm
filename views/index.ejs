@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+    <link href="/css/common.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <style>
+        .top-bar {
+            width: 100%;
+            height: 20%;
+            position: relative;
+            left: 0;
+            top: 0;
+        }
+        .top-bar .title {
+            font-family: "微软雅黑";
+            font-size: 2.5rem;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            text-align: center;
+        }
+        .user-info {
+            width: 75%;
+            position: relative;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body class="bg-grey">
+
+<div class="top-bar">
+    <div class="title">农业大棚管理系统</div>
+</div>
+<hr>
+
+<form class="user-info" onSubmit="return checkMessage()">
+    <div class="form-group">
+        <label for="userName"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户名</label>
+        <input name="userName" class="form-control" id="userName" >
+    </div>
+    <div class="form-group">
+        <label for="telephone"><span class="glyphicon glyphicon-phone"></span>&nbsp;&nbsp;手机号</label>
+        <input name="telephone" class="form-control" id="telephone" >
+    </div>
+    <div class="form-group">
+        <label for="password"><span class="glyphicon glyphicon-lock"></span>&nbsp;&nbsp;密码</label>
+        <input name="password" class="form-control" id="password" >
+    </div>
+    <div class="form-group">
+        <label for="passwordChecked"><span class="glyphicon glyphicon-lock"></span>&nbsp;&nbsp;确认密码</label>
+        <input name="passwordChecked" class="form-control" id="passwordChecked">
+    </div>
+    <div class="form-group">
+        <label for="cities"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;所属城市</label>
+        <select class="selectpicker" id="cities" data-live-search="true">
+
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success" id="submit" >注册</button>
+</form>
+
+
+<script>
+    $(function () {
+        $.getJSON('/city.json', function (data) {
+            var cityData = data.info;
+
+            for (var i = 0; i < cityData.length; i++) {
+                var tempData = cityData[i];
+                if (tempData.childList.length === 1) {
+                    $("#cities").append("<option value='" + tempData.id + "'>" + tempData.areaname + "</option>");
+                }
+                else {
+                    for (var j = 0; j < tempData.childList.length; j++) {
+                        $("#cities").append("<option value='" + tempData.childList[j].id + "'>" + tempData.childList[j].areaname + "</option>");
+                    }
+                }
+            }
+
+            $('#cities').selectpicker('refresh');
+            $('#cities').selectpicker('render');
+        })
+    })
+
+    //点击注册时，判断用户输入是否正确
+    function checkMessage() {
+        var userName = $('#userName').val().trim();
+        var password = $('#password').val().trim();
+        var telephone = $('#telephone').val().trim();
+        var passwordChecked = $('#passwordChecked').val().trim();
+        var city = $('#cities').find("option:selected").val().trim();
+        console.log(city)
+
+        if (!userName || !password || !telephone || !passwordChecked ) {
+            alert("请填写完整信息！");
+            return false;
+        }
+        else if (!checkMobile(telephone)) {
+            alert("请输入正确d手机号格式");
+            $('#telephone').focus();
+            return false;
+        }
+        else if (passwordChecked !== password) {
+            alert("两次输入密码不符");
+            $('#passwordChecked').focus();
+            return false;
+        }
+        else {
+
+            $.ajax({
+                url: "users/signup",
+                type: 'post',
+                data: {
+                    name: userName,
+                    tele: telephone,
+                    pass: password,
+                    city: city
+                },
+                dataType: 'json',
+                success: function(data) {
+                    console.log("signup")
+                    console.log(data);
+                    if(data.data == 3) {
+                        alert("注册成功")
+                    }else {
+                        alert("登录名已经有人用")
+                    }
+                },
+                error: function (data) {
+                    console.log('error')
+                }
+            })
+        }
+        // return true;
+    }
+
+    function checkMobile(number){
+        if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(number))){
+            return false;
+        }
+        return true;
+    }
+</script>
+</body>
+</html>

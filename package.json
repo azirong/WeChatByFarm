@@ -4,7 +4,12 @@
   "description": "使用 Node.js开发微信",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.3",
     "express": "^4.15.3",
+    "jquery": "^3.3.1",
     "xml2js": "^0.4.17"
   },
   "devDependencies": {

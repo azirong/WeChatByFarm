@@ -1,0 +1,3432 @@
+{
+  "code": "200",
+  "info": [
+    {
+      "id": 110000,
+      "areaname": "北京",
+      "shortname": "北京",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 110100,
+          "areaname": "北京市",
+          "shortname": "北京",
+          "parentid": 110000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 120000,
+      "areaname": "天津",
+      "shortname": "天津",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 120100,
+          "areaname": "天津市",
+          "shortname": "天津",
+          "parentid": 120000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 130000,
+      "areaname": "河北省",
+      "shortname": "河北",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 130100,
+          "areaname": "石家庄市",
+          "shortname": "石家庄",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 130200,
+          "areaname": "唐山市",
+          "shortname": "唐山",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 130300,
+          "areaname": "秦皇岛市",
+          "shortname": "秦皇岛",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 130400,
+          "areaname": "邯郸市",
+          "shortname": "邯郸",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 130500,
+          "areaname": "邢台市",
+          "shortname": "邢台",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 130600,
+          "areaname": "保定市",
+          "shortname": "保定",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 130700,
+          "areaname": "张家口市",
+          "shortname": "张家口",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 130800,
+          "areaname": "承德市",
+          "shortname": "承德",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 130900,
+          "areaname": "沧州市",
+          "shortname": "沧州",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 131000,
+          "areaname": "廊坊市",
+          "shortname": "廊坊",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 131100,
+          "areaname": "衡水市",
+          "shortname": "衡水",
+          "parentid": 130000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 140000,
+      "areaname": "山西省",
+      "shortname": "山西",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 140100,
+          "areaname": "太原市",
+          "shortname": "太原",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 140200,
+          "areaname": "大同市",
+          "shortname": "大同",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 140300,
+          "areaname": "阳泉市",
+          "shortname": "阳泉",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 140400,
+          "areaname": "长治市",
+          "shortname": "长治",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 140500,
+          "areaname": "晋城市",
+          "shortname": "晋城",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 140600,
+          "areaname": "朔州市",
+          "shortname": "朔州",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 140700,
+          "areaname": "晋中市",
+          "shortname": "晋中",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 140800,
+          "areaname": "运城市",
+          "shortname": "运城",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 140900,
+          "areaname": "忻州市",
+          "shortname": "忻州",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 141000,
+          "areaname": "临汾市",
+          "shortname": "临汾",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 141100,
+          "areaname": "吕梁市",
+          "shortname": "吕梁",
+          "parentid": 140000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 150000,
+      "areaname": "内蒙古自治区",
+      "shortname": "内蒙古",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 150100,
+          "areaname": "呼和浩特市",
+          "shortname": "呼和浩特",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 150200,
+          "areaname": "包头市",
+          "shortname": "包头",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 150300,
+          "areaname": "乌海市",
+          "shortname": "乌海",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 150400,
+          "areaname": "赤峰市",
+          "shortname": "赤峰",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 150500,
+          "areaname": "通辽市",
+          "shortname": "通辽",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 150600,
+          "areaname": "鄂尔多斯市",
+          "shortname": "鄂尔多斯",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 150700,
+          "areaname": "呼伦贝尔市",
+          "shortname": "呼伦贝尔",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 150800,
+          "areaname": "巴彦淖尔市",
+          "shortname": "巴彦淖尔",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 150900,
+          "areaname": "乌兰察布市",
+          "shortname": "乌兰察布",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 152200,
+          "areaname": "兴安盟",
+          "shortname": "兴安",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 152500,
+          "areaname": "锡林郭勒盟",
+          "shortname": "锡林郭勒",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 152900,
+          "areaname": "阿拉善盟",
+          "shortname": "阿拉善",
+          "parentid": 150000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 210000,
+      "areaname": "辽宁省",
+      "shortname": "辽宁",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 210100,
+          "areaname": "沈阳市",
+          "shortname": "沈阳",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 210200,
+          "areaname": "大连市",
+          "shortname": "大连",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 210300,
+          "areaname": "鞍山市",
+          "shortname": "鞍山",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 210400,
+          "areaname": "抚顺市",
+          "shortname": "抚顺",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 210500,
+          "areaname": "本溪市",
+          "shortname": "本溪",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 210600,
+          "areaname": "丹东市",
+          "shortname": "丹东",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 210700,
+          "areaname": "锦州市",
+          "shortname": "锦州",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 210800,
+          "areaname": "营口市",
+          "shortname": "营口",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 210900,
+          "areaname": "阜新市",
+          "shortname": "阜新",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 211000,
+          "areaname": "辽阳市",
+          "shortname": "辽阳",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 211100,
+          "areaname": "盘锦市",
+          "shortname": "盘锦",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 211200,
+          "areaname": "铁岭市",
+          "shortname": "铁岭",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 211300,
+          "areaname": "朝阳市",
+          "shortname": "朝阳",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 211400,
+          "areaname": "葫芦岛市",
+          "shortname": "葫芦岛",
+          "parentid": 210000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 220000,
+      "areaname": "吉林省",
+      "shortname": "吉林",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 220100,
+          "areaname": "长春市",
+          "shortname": "长春",
+          "parentid": 220000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 220200,
+          "areaname": "吉林市",
+          "shortname": "吉林",
+          "parentid": 220000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 220300,
+          "areaname": "四平市",
+          "shortname": "四平",
+          "parentid": 220000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 220400,
+          "areaname": "辽源市",
+          "shortname": "辽源",
+          "parentid": 220000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 220500,
+          "areaname": "通化市",
+          "shortname": "通化",
+          "parentid": 220000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 220600,
+          "areaname": "白山市",
+          "shortname": "白山",
+          "parentid": 220000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 220700,
+          "areaname": "松原市",
+          "shortname": "松原",
+          "parentid": 220000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 220800,
+          "areaname": "白城市",
+          "shortname": "白城",
+          "parentid": 220000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 222400,
+          "areaname": "延边朝鲜族自治州",
+          "shortname": "延边朝鲜族",
+          "parentid": 220000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 230000,
+      "areaname": "黑龙江省",
+      "shortname": "黑龙江",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 230100,
+          "areaname": "哈尔滨市",
+          "shortname": "哈尔滨",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 230200,
+          "areaname": "齐齐哈尔市",
+          "shortname": "齐齐哈尔",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 230300,
+          "areaname": "鸡西市",
+          "shortname": "鸡西",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 230400,
+          "areaname": "鹤岗市",
+          "shortname": "鹤岗",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 230500,
+          "areaname": "双鸭山市",
+          "shortname": "双鸭山",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 230600,
+          "areaname": "大庆市",
+          "shortname": "大庆",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 230700,
+          "areaname": "伊春市",
+          "shortname": "伊春",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 230800,
+          "areaname": "佳木斯市",
+          "shortname": "佳木斯",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 230900,
+          "areaname": "七台河市",
+          "shortname": "七台河",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 231000,
+          "areaname": "牡丹江市",
+          "shortname": "牡丹江",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 231100,
+          "areaname": "黑河市",
+          "shortname": "黑河",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 231200,
+          "areaname": "绥化市",
+          "shortname": "绥化",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 232700,
+          "areaname": "大兴安岭地区",
+          "shortname": "大兴安岭",
+          "parentid": 230000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 310000,
+      "areaname": "上海",
+      "shortname": "上海",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 310100,
+          "areaname": "上海市",
+          "shortname": "上海",
+          "parentid": 310000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 320000,
+      "areaname": "江苏省",
+      "shortname": "江苏",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 320100,
+          "areaname": "南京市",
+          "shortname": "南京",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 320200,
+          "areaname": "无锡市",
+          "shortname": "无锡",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 320300,
+          "areaname": "徐州市",
+          "shortname": "徐州",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 320400,
+          "areaname": "常州市",
+          "shortname": "常州",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 320500,
+          "areaname": "苏州市",
+          "shortname": "苏州",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 320600,
+          "areaname": "南通市",
+          "shortname": "南通",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 320700,
+          "areaname": "连云港市",
+          "shortname": "连云港",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 320800,
+          "areaname": "淮安市",
+          "shortname": "淮安",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 320900,
+          "areaname": "盐城市",
+          "shortname": "盐城",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 321000,
+          "areaname": "扬州市",
+          "shortname": "扬州",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 321100,
+          "areaname": "镇江市",
+          "shortname": "镇江",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 321200,
+          "areaname": "泰州市",
+          "shortname": "泰州",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 321300,
+          "areaname": "宿迁市",
+          "shortname": "宿迁",
+          "parentid": 320000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 330000,
+      "areaname": "浙江省",
+      "shortname": "浙江",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 330100,
+          "areaname": "杭州市",
+          "shortname": "杭州",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 330200,
+          "areaname": "宁波市",
+          "shortname": "宁波",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 330300,
+          "areaname": "温州市",
+          "shortname": "温州",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 330400,
+          "areaname": "嘉兴市",
+          "shortname": "嘉兴",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 330500,
+          "areaname": "湖州市",
+          "shortname": "湖州",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 330600,
+          "areaname": "绍兴市",
+          "shortname": "绍兴",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 330700,
+          "areaname": "金华市",
+          "shortname": "金华",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 330800,
+          "areaname": "衢州市",
+          "shortname": "衢州",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 330900,
+          "areaname": "舟山市",
+          "shortname": "舟山",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 331000,
+          "areaname": "台州市",
+          "shortname": "台州",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 331100,
+          "areaname": "丽水市",
+          "shortname": "丽水",
+          "parentid": 330000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 340000,
+      "areaname": "安徽省",
+      "shortname": "安徽",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 340100,
+          "areaname": "合肥市",
+          "shortname": "合肥",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 340200,
+          "areaname": "芜湖市",
+          "shortname": "芜湖",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 340300,
+          "areaname": "蚌埠市",
+          "shortname": "蚌埠",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 340400,
+          "areaname": "淮南市",
+          "shortname": "淮南",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 340500,
+          "areaname": "马鞍山市",
+          "shortname": "马鞍山",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 340600,
+          "areaname": "淮北市",
+          "shortname": "淮北",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 340700,
+          "areaname": "铜陵市",
+          "shortname": "铜陵",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 340800,
+          "areaname": "安庆市",
+          "shortname": "安庆",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 341000,
+          "areaname": "黄山市",
+          "shortname": "黄山",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 341100,
+          "areaname": "滁州市",
+          "shortname": "滁州",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 341200,
+          "areaname": "阜阳市",
+          "shortname": "阜阳",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 341300,
+          "areaname": "宿州市",
+          "shortname": "宿州",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 341500,
+          "areaname": "六安市",
+          "shortname": "六安",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 341600,
+          "areaname": "亳州市",
+          "shortname": "亳州",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 341700,
+          "areaname": "池州市",
+          "shortname": "池州",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 341800,
+          "areaname": "宣城市",
+          "shortname": "宣城",
+          "parentid": 340000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 350000,
+      "areaname": "福建省",
+      "shortname": "福建",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 350100,
+          "areaname": "福州市",
+          "shortname": "福州",
+          "parentid": 350000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 350200,
+          "areaname": "厦门市",
+          "shortname": "厦门",
+          "parentid": 350000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 350300,
+          "areaname": "莆田市",
+          "shortname": "莆田",
+          "parentid": 350000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 350400,
+          "areaname": "三明市",
+          "shortname": "三明",
+          "parentid": 350000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 350500,
+          "areaname": "泉州市",
+          "shortname": "泉州",
+          "parentid": 350000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 350600,
+          "areaname": "漳州市",
+          "shortname": "漳州",
+          "parentid": 350000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 350700,
+          "areaname": "南平市",
+          "shortname": "南平",
+          "parentid": 350000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 350800,
+          "areaname": "龙岩市",
+          "shortname": "龙岩",
+          "parentid": 350000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 350900,
+          "areaname": "宁德市",
+          "shortname": "宁德",
+          "parentid": 350000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 360000,
+      "areaname": "江西省",
+      "shortname": "江西",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 360100,
+          "areaname": "南昌市",
+          "shortname": "南昌",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 360200,
+          "areaname": "景德镇市",
+          "shortname": "景德镇",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 360300,
+          "areaname": "萍乡市",
+          "shortname": "萍乡",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 360400,
+          "areaname": "九江市",
+          "shortname": "九江",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 360500,
+          "areaname": "新余市",
+          "shortname": "新余",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 360600,
+          "areaname": "鹰潭市",
+          "shortname": "鹰潭",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 360700,
+          "areaname": "赣州市",
+          "shortname": "赣州",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 360800,
+          "areaname": "吉安市",
+          "shortname": "吉安",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 360900,
+          "areaname": "宜春市",
+          "shortname": "宜春",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 361000,
+          "areaname": "抚州市",
+          "shortname": "抚州",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 361100,
+          "areaname": "上饶市",
+          "shortname": "上饶",
+          "parentid": 360000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 370000,
+      "areaname": "山东省",
+      "shortname": "山东",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 370100,
+          "areaname": "济南市",
+          "shortname": "济南",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 370200,
+          "areaname": "青岛市",
+          "shortname": "青岛",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 370300,
+          "areaname": "淄博市",
+          "shortname": "淄博",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 370400,
+          "areaname": "枣庄市",
+          "shortname": "枣庄",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 370500,
+          "areaname": "东营市",
+          "shortname": "东营",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 370600,
+          "areaname": "烟台市",
+          "shortname": "烟台",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 370700,
+          "areaname": "潍坊市",
+          "shortname": "潍坊",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 370800,
+          "areaname": "济宁市",
+          "shortname": "济宁",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 370900,
+          "areaname": "泰安市",
+          "shortname": "泰安",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 371000,
+          "areaname": "威海市",
+          "shortname": "威海",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 371100,
+          "areaname": "日照市",
+          "shortname": "日照",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 371200,
+          "areaname": "莱芜市",
+          "shortname": "莱芜",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 371300,
+          "areaname": "临沂市",
+          "shortname": "临沂",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 371400,
+          "areaname": "德州市",
+          "shortname": "德州",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 371500,
+          "areaname": "聊城市",
+          "shortname": "聊城",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 371600,
+          "areaname": "滨州市",
+          "shortname": "滨州",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 371700,
+          "areaname": "菏泽市",
+          "shortname": "菏泽",
+          "parentid": 370000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 410000,
+      "areaname": "河南省",
+      "shortname": "河南",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 410100,
+          "areaname": "郑州市",
+          "shortname": "郑州",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 410200,
+          "areaname": "开封市",
+          "shortname": "开封",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 410300,
+          "areaname": "洛阳市",
+          "shortname": "洛阳",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 410400,
+          "areaname": "平顶山市",
+          "shortname": "平顶山",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 410500,
+          "areaname": "安阳市",
+          "shortname": "安阳",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 410600,
+          "areaname": "鹤壁市",
+          "shortname": "鹤壁",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 410700,
+          "areaname": "新乡市",
+          "shortname": "新乡",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 410800,
+          "areaname": "焦作市",
+          "shortname": "焦作",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 410881,
+          "areaname": "济源市",
+          "shortname": "济源",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 410900,
+          "areaname": "濮阳市",
+          "shortname": "濮阳",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 411000,
+          "areaname": "许昌市",
+          "shortname": "许昌",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 411100,
+          "areaname": "漯河市",
+          "shortname": "漯河",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 411200,
+          "areaname": "三门峡市",
+          "shortname": "三门峡",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 411300,
+          "areaname": "南阳市",
+          "shortname": "南阳",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 411400,
+          "areaname": "商丘市",
+          "shortname": "商丘",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 411500,
+          "areaname": "信阳市",
+          "shortname": "信阳",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 411600,
+          "areaname": "周口市",
+          "shortname": "周口",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 411700,
+          "areaname": "驻马店市",
+          "shortname": "驻马店",
+          "parentid": 410000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 420000,
+      "areaname": "湖北省",
+      "shortname": "湖北",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 420100,
+          "areaname": "武汉市",
+          "shortname": "武汉",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 420200,
+          "areaname": "黄石市",
+          "shortname": "黄石",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 420300,
+          "areaname": "十堰市",
+          "shortname": "十堰",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 420500,
+          "areaname": "宜昌市",
+          "shortname": "宜昌",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 420600,
+          "areaname": "襄阳市",
+          "shortname": "襄阳",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 420700,
+          "areaname": "鄂州市",
+          "shortname": "鄂州",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 420800,
+          "areaname": "荆门市",
+          "shortname": "荆门",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 420900,
+          "areaname": "孝感市",
+          "shortname": "孝感",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 421000,
+          "areaname": "荆州市",
+          "shortname": "荆州",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 421100,
+          "areaname": "黄冈市",
+          "shortname": "黄冈",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 421200,
+          "areaname": "咸宁市",
+          "shortname": "咸宁",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 421300,
+          "areaname": "随州市",
+          "shortname": "随州",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 422800,
+          "areaname": "恩施土家族苗族自治州",
+          "shortname": "恩施",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 429004,
+          "areaname": "仙桃市",
+          "shortname": "仙桃",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 429005,
+          "areaname": "潜江市",
+          "shortname": "潜江",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 429006,
+          "areaname": "天门市",
+          "shortname": "天门",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 429021,
+          "areaname": "神农架林区",
+          "shortname": "神农架",
+          "parentid": 420000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 430000,
+      "areaname": "湖南省",
+      "shortname": "湖南",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 430100,
+          "areaname": "长沙市",
+          "shortname": "长沙",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 430200,
+          "areaname": "株洲市",
+          "shortname": "株洲",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 430300,
+          "areaname": "湘潭市",
+          "shortname": "湘潭",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 430400,
+          "areaname": "衡阳市",
+          "shortname": "衡阳",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 430500,
+          "areaname": "邵阳市",
+          "shortname": "邵阳",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 430600,
+          "areaname": "岳阳市",
+          "shortname": "岳阳",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 430700,
+          "areaname": "常德市",
+          "shortname": "常德",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 430800,
+          "areaname": "张家界市",
+          "shortname": "张家界",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 430900,
+          "areaname": "益阳市",
+          "shortname": "益阳",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 431000,
+          "areaname": "郴州市",
+          "shortname": "郴州",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 431100,
+          "areaname": "永州市",
+          "shortname": "永州",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 431200,
+          "areaname": "怀化市",
+          "shortname": "怀化",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 431300,
+          "areaname": "娄底市",
+          "shortname": "娄底",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 433100,
+          "areaname": "湘西土家族苗族自治州",
+          "shortname": "湘西",
+          "parentid": 430000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 440000,
+      "areaname": "广东省",
+      "shortname": "广东",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 440100,
+          "areaname": "广州市",
+          "shortname": "广州",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 440200,
+          "areaname": "韶关市",
+          "shortname": "韶关",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 440300,
+          "areaname": "深圳市",
+          "shortname": "深圳",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 440400,
+          "areaname": "珠海市",
+          "shortname": "珠海",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 440500,
+          "areaname": "汕头市",
+          "shortname": "汕头",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 440600,
+          "areaname": "佛山市",
+          "shortname": "佛山",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 440700,
+          "areaname": "江门市",
+          "shortname": "江门",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 440800,
+          "areaname": "湛江市",
+          "shortname": "湛江",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 440900,
+          "areaname": "茂名市",
+          "shortname": "茂名",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 441200,
+          "areaname": "肇庆市",
+          "shortname": "肇庆",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 441300,
+          "areaname": "惠州市",
+          "shortname": "惠州",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 441400,
+          "areaname": "梅州市",
+          "shortname": "梅州",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 441500,
+          "areaname": "汕尾市",
+          "shortname": "汕尾",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 441600,
+          "areaname": "河源市",
+          "shortname": "河源",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 441700,
+          "areaname": "阳江市",
+          "shortname": "阳江",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 441800,
+          "areaname": "清远市",
+          "shortname": "清远",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 441900,
+          "areaname": "东莞市",
+          "shortname": "东莞",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 442000,
+          "areaname": "中山市",
+          "shortname": "中山",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 442101,
+          "areaname": "东沙群岛",
+          "shortname": "东沙",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 445100,
+          "areaname": "潮州市",
+          "shortname": "潮州",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 445200,
+          "areaname": "揭阳市",
+          "shortname": "揭阳",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 445300,
+          "areaname": "云浮市",
+          "shortname": "云浮",
+          "parentid": 440000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 450000,
+      "areaname": "广西壮族自治区",
+      "shortname": "广西",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 450100,
+          "areaname": "南宁市",
+          "shortname": "南宁",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 450200,
+          "areaname": "柳州市",
+          "shortname": "柳州",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 450300,
+          "areaname": "桂林市",
+          "shortname": "桂林",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 450400,
+          "areaname": "梧州市",
+          "shortname": "梧州",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 450500,
+          "areaname": "北海市",
+          "shortname": "北海",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 450600,
+          "areaname": "防城港市",
+          "shortname": "防城港",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 450700,
+          "areaname": "钦州市",
+          "shortname": "钦州",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 450800,
+          "areaname": "贵港市",
+          "shortname": "贵港",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 450900,
+          "areaname": "玉林市",
+          "shortname": "玉林",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 451000,
+          "areaname": "百色市",
+          "shortname": "百色",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 451100,
+          "areaname": "贺州市",
+          "shortname": "贺州",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 451200,
+          "areaname": "河池市",
+          "shortname": "河池",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 451300,
+          "areaname": "来宾市",
+          "shortname": "来宾",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 451400,
+          "areaname": "崇左市",
+          "shortname": "崇左",
+          "parentid": 450000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 460000,
+      "areaname": "海南省",
+      "shortname": "海南",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 469028,
+          "areaname": "临高县",
+          "shortname": "临高",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 460100,
+          "areaname": "海口市",
+          "shortname": "海口",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 460200,
+          "areaname": "三亚市",
+          "shortname": "三亚",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 460300,
+          "areaname": "三沙市",
+          "shortname": "三沙",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469001,
+          "areaname": "五指山市",
+          "shortname": "五指山",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469002,
+          "areaname": "琼海市",
+          "shortname": "琼海",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469003,
+          "areaname": "儋州市",
+          "shortname": "儋州",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469005,
+          "areaname": "文昌市",
+          "shortname": "文昌",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469006,
+          "areaname": "万宁市",
+          "shortname": "万宁",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469007,
+          "areaname": "东方市",
+          "shortname": "东方",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469025,
+          "areaname": "定安县",
+          "shortname": "定安",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469026,
+          "areaname": "屯昌县",
+          "shortname": "屯昌",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469027,
+          "areaname": "澄迈县",
+          "shortname": "澄迈",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469030,
+          "areaname": "白沙黎族自治县",
+          "shortname": "白沙",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469031,
+          "areaname": "昌江黎族自治县",
+          "shortname": "昌江",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469033,
+          "areaname": "乐东黎族自治县",
+          "shortname": "乐东",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469034,
+          "areaname": "陵水黎族自治县",
+          "shortname": "陵水",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469035,
+          "areaname": "保亭黎族苗族自治县",
+          "shortname": "保亭",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 469036,
+          "areaname": "琼中黎族苗族自治县",
+          "shortname": "琼中",
+          "parentid": 460000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 500000,
+      "areaname": "重庆",
+      "shortname": "重庆",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 500100,
+          "areaname": "重庆市",
+          "shortname": "重庆",
+          "parentid": 500000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 510000,
+      "areaname": "四川省",
+      "shortname": "四川",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 510100,
+          "areaname": "成都市",
+          "shortname": "成都",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 510300,
+          "areaname": "自贡市",
+          "shortname": "自贡",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 510400,
+          "areaname": "攀枝花市",
+          "shortname": "攀枝花",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 510500,
+          "areaname": "泸州市",
+          "shortname": "泸州",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 510600,
+          "areaname": "德阳市",
+          "shortname": "德阳",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 510700,
+          "areaname": "绵阳市",
+          "shortname": "绵阳",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 510800,
+          "areaname": "广元市",
+          "shortname": "广元",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 510900,
+          "areaname": "遂宁市",
+          "shortname": "遂宁",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 511000,
+          "areaname": "内江市",
+          "shortname": "内江",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 511100,
+          "areaname": "乐山市",
+          "shortname": "乐山",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 511300,
+          "areaname": "南充市",
+          "shortname": "南充",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 511400,
+          "areaname": "眉山市",
+          "shortname": "眉山",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 511500,
+          "areaname": "宜宾市",
+          "shortname": "宜宾",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 511600,
+          "areaname": "广安市",
+          "shortname": "广安",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 511700,
+          "areaname": "达州市",
+          "shortname": "达州",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 511800,
+          "areaname": "雅安市",
+          "shortname": "雅安",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 511900,
+          "areaname": "巴中市",
+          "shortname": "巴中",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 512000,
+          "areaname": "资阳市",
+          "shortname": "资阳",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 513200,
+          "areaname": "阿坝藏族羌族自治州",
+          "shortname": "阿坝",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 513300,
+          "areaname": "甘孜藏族自治州",
+          "shortname": "甘孜",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 513400,
+          "areaname": "凉山彝族自治州",
+          "shortname": "凉山",
+          "parentid": 510000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 520000,
+      "areaname": "贵州省",
+      "shortname": "贵州",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 520100,
+          "areaname": "贵阳市",
+          "shortname": "贵阳",
+          "parentid": 520000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 520200,
+          "areaname": "六盘水市",
+          "shortname": "六盘水",
+          "parentid": 520000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 520300,
+          "areaname": "遵义市",
+          "shortname": "遵义",
+          "parentid": 520000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 520400,
+          "areaname": "安顺市",
+          "shortname": "安顺",
+          "parentid": 520000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 522200,
+          "areaname": "铜仁市",
+          "shortname": "铜仁",
+          "parentid": 520000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 522300,
+          "areaname": "黔西南布依族苗族自治州",
+          "shortname": "黔西南",
+          "parentid": 520000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 522400,
+          "areaname": "毕节市",
+          "shortname": "毕节",
+          "parentid": 520000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 522600,
+          "areaname": "黔东南苗族侗族自治州",
+          "shortname": "黔东南",
+          "parentid": 520000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 522700,
+          "areaname": "黔南布依族苗族自治州",
+          "shortname": "黔南",
+          "parentid": 520000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 530000,
+      "areaname": "云南省",
+      "shortname": "云南",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 530100,
+          "areaname": "昆明市",
+          "shortname": "昆明",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 530300,
+          "areaname": "曲靖市",
+          "shortname": "曲靖",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 530400,
+          "areaname": "玉溪市",
+          "shortname": "玉溪",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 530500,
+          "areaname": "保山市",
+          "shortname": "保山",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 530600,
+          "areaname": "昭通市",
+          "shortname": "昭通",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 530700,
+          "areaname": "丽江市",
+          "shortname": "丽江",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 530800,
+          "areaname": "普洱市",
+          "shortname": "普洱",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 530900,
+          "areaname": "临沧市",
+          "shortname": "临沧",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 532300,
+          "areaname": "楚雄彝族自治州",
+          "shortname": "楚雄",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 532500,
+          "areaname": "红河哈尼族彝族自治州",
+          "shortname": "红河",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 532600,
+          "areaname": "文山壮族苗族自治州",
+          "shortname": "文山",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 532800,
+          "areaname": "西双版纳傣族自治州",
+          "shortname": "西双版纳",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 532900,
+          "areaname": "大理白族自治州",
+          "shortname": "大理",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 533100,
+          "areaname": "德宏傣族景颇族自治州",
+          "shortname": "德宏",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 533300,
+          "areaname": "怒江傈僳族自治州",
+          "shortname": "怒江",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 533400,
+          "areaname": "迪庆藏族自治州",
+          "shortname": "迪庆",
+          "parentid": 530000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 540000,
+      "areaname": "西藏自治区",
+      "shortname": "西藏",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 540100,
+          "areaname": "拉萨市",
+          "shortname": "拉萨",
+          "parentid": 540000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 542100,
+          "areaname": "昌都地区",
+          "shortname": "昌都",
+          "parentid": 540000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 542200,
+          "areaname": "山南地区",
+          "shortname": "山南",
+          "parentid": 540000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 542300,
+          "areaname": "日喀则地区",
+          "shortname": "日喀则",
+          "parentid": 540000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 542400,
+          "areaname": "那曲地区",
+          "shortname": "那曲",
+          "parentid": 540000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 542500,
+          "areaname": "阿里地区",
+          "shortname": "阿里",
+          "parentid": 540000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 542600,
+          "areaname": "林芝地区",
+          "shortname": "林芝",
+          "parentid": 540000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 610000,
+      "areaname": "陕西省",
+      "shortname": "陕西",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 610100,
+          "areaname": "西安市",
+          "shortname": "西安",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 610200,
+          "areaname": "铜川市",
+          "shortname": "铜川",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 610300,
+          "areaname": "宝鸡市",
+          "shortname": "宝鸡",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 610400,
+          "areaname": "咸阳市",
+          "shortname": "咸阳",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 610500,
+          "areaname": "渭南市",
+          "shortname": "渭南",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 610600,
+          "areaname": "延安市",
+          "shortname": "延安",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 610700,
+          "areaname": "汉中市",
+          "shortname": "汉中",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 610800,
+          "areaname": "榆林市",
+          "shortname": "榆林",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 610900,
+          "areaname": "安康市",
+          "shortname": "安康",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 611000,
+          "areaname": "商洛市",
+          "shortname": "商洛",
+          "parentid": 610000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 620000,
+      "areaname": "甘肃省",
+      "shortname": "甘肃",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 620100,
+          "areaname": "兰州市",
+          "shortname": "兰州",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 620200,
+          "areaname": "嘉峪关市",
+          "shortname": "嘉峪关",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 620300,
+          "areaname": "金昌市",
+          "shortname": "金昌",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 620400,
+          "areaname": "白银市",
+          "shortname": "白银",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 620500,
+          "areaname": "天水市",
+          "shortname": "天水",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 620600,
+          "areaname": "武威市",
+          "shortname": "武威",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 620700,
+          "areaname": "张掖市",
+          "shortname": "张掖",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 620800,
+          "areaname": "平凉市",
+          "shortname": "平凉",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 620900,
+          "areaname": "酒泉市",
+          "shortname": "酒泉",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 621000,
+          "areaname": "庆阳市",
+          "shortname": "庆阳",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 621100,
+          "areaname": "定西市",
+          "shortname": "定西",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 621200,
+          "areaname": "陇南市",
+          "shortname": "陇南",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 622900,
+          "areaname": "临夏回族自治州",
+          "shortname": "临夏",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 623000,
+          "areaname": "甘南藏族自治州",
+          "shortname": "甘南",
+          "parentid": 620000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 630000,
+      "areaname": "青海省",
+      "shortname": "青海",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 630100,
+          "areaname": "西宁市",
+          "shortname": "西宁",
+          "parentid": 630000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 632100,
+          "areaname": "海东市",
+          "shortname": "海东",
+          "parentid": 630000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 632200,
+          "areaname": "海北藏族自治州",
+          "shortname": "海北",
+          "parentid": 630000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 632300,
+          "areaname": "黄南藏族自治州",
+          "shortname": "黄南",
+          "parentid": 630000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 632500,
+          "areaname": "海南藏族自治州",
+          "shortname": "海南藏族",
+          "parentid": 630000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 632600,
+          "areaname": "果洛藏族自治州",
+          "shortname": "果洛",
+          "parentid": 630000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 632700,
+          "areaname": "玉树藏族自治州",
+          "shortname": "玉树",
+          "parentid": 630000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 632800,
+          "areaname": "海西蒙古族藏族自治州",
+          "shortname": "海西",
+          "parentid": 630000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 640000,
+      "areaname": "宁夏回族自治区",
+      "shortname": "宁夏",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 640100,
+          "areaname": "银川市",
+          "shortname": "银川",
+          "parentid": 640000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 640200,
+          "areaname": "石嘴山市",
+          "shortname": "石嘴山",
+          "parentid": 640000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 640300,
+          "areaname": "吴忠市",
+          "shortname": "吴忠",
+          "parentid": 640000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 640400,
+          "areaname": "固原市",
+          "shortname": "固原",
+          "parentid": 640000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 640500,
+          "areaname": "中卫市",
+          "shortname": "中卫",
+          "parentid": 640000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 650000,
+      "areaname": "新疆维吾尔自治区",
+      "shortname": "新疆",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 650100,
+          "areaname": "乌鲁木齐市",
+          "shortname": "乌鲁木齐",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 650200,
+          "areaname": "克拉玛依市",
+          "shortname": "克拉玛依",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 652100,
+          "areaname": "吐鲁番地区",
+          "shortname": "吐鲁番",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 652200,
+          "areaname": "哈密地区",
+          "shortname": "哈密",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 652300,
+          "areaname": "昌吉回族自治州",
+          "shortname": "昌吉",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 652700,
+          "areaname": "博尔塔拉蒙古自治州",
+          "shortname": "博尔塔拉",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 652800,
+          "areaname": "巴音郭楞蒙古自治州",
+          "shortname": "巴音郭楞",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 652900,
+          "areaname": "阿克苏地区",
+          "shortname": "阿克苏",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 653000,
+          "areaname": "克孜勒苏柯尔克孜自治州",
+          "shortname": "克孜勒苏柯尔克孜",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 653100,
+          "areaname": "喀什地区",
+          "shortname": "喀什",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 653200,
+          "areaname": "和田地区",
+          "shortname": "和田",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 654000,
+          "areaname": "伊犁哈萨克自治州",
+          "shortname": "伊犁",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 654200,
+          "areaname": "塔城地区",
+          "shortname": "塔城",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 654300,
+          "areaname": "阿勒泰地区",
+          "shortname": "阿勒泰",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 659001,
+          "areaname": "石河子市",
+          "shortname": "石河子",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 659002,
+          "areaname": "阿拉尔市",
+          "shortname": "阿拉尔",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 659003,
+          "areaname": "图木舒克市",
+          "shortname": "图木舒克",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 659004,
+          "areaname": "五家渠市",
+          "shortname": "五家渠",
+          "parentid": 650000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 710000,
+      "areaname": "台湾",
+      "shortname": "台湾",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 710100,
+          "areaname": "台北市",
+          "shortname": "台北",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 710200,
+          "areaname": "高雄市",
+          "shortname": "高雄",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 710300,
+          "areaname": "台南市",
+          "shortname": "台南",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 710400,
+          "areaname": "台中市",
+          "shortname": "台中",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 710500,
+          "areaname": "金门县",
+          "shortname": "金门",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 710600,
+          "areaname": "南投县",
+          "shortname": "南投",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 710700,
+          "areaname": "基隆市",
+          "shortname": "基隆",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 710800,
+          "areaname": "新竹市",
+          "shortname": "新竹",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 710900,
+          "areaname": "嘉义市",
+          "shortname": "嘉义",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 711100,
+          "areaname": "新北市",
+          "shortname": "新北",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 711200,
+          "areaname": "宜兰县",
+          "shortname": "宜兰",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 711300,
+          "areaname": "新竹县",
+          "shortname": "新竹",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 711400,
+          "areaname": "桃园县",
+          "shortname": "桃园",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 711500,
+          "areaname": "苗栗县",
+          "shortname": "苗栗",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 711700,
+          "areaname": "彰化县",
+          "shortname": "彰化",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 711900,
+          "areaname": "嘉义县",
+          "shortname": "嘉义",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 712100,
+          "areaname": "云林县",
+          "shortname": "云林",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 712400,
+          "areaname": "屏东县",
+          "shortname": "屏东",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 712500,
+          "areaname": "台东县",
+          "shortname": "台东",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 712600,
+          "areaname": "花莲县",
+          "shortname": "花莲",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 712700,
+          "areaname": "澎湖县",
+          "shortname": "澎湖",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 712800,
+          "areaname": "连江县",
+          "shortname": "连江",
+          "parentid": 710000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 810000,
+      "areaname": "香港特别行政区",
+      "shortname": "香港",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 810100,
+          "areaname": "香港岛",
+          "shortname": "香港岛",
+          "parentid": 810000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 810200,
+          "areaname": "九龙",
+          "shortname": "九龙",
+          "parentid": 810000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 810300,
+          "areaname": "新界",
+          "shortname": "新界",
+          "parentid": 810000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    },
+    {
+      "id": 820000,
+      "areaname": "澳门特别行政区",
+      "shortname": "澳门",
+      "parentid": 0,
+      "level": 1,
+      "childList": [
+        {
+          "id": 820100,
+          "areaname": "澳门半岛",
+          "shortname": "澳门半岛",
+          "parentid": 820000,
+          "level": 2,
+          "childList": []
+        },
+        {
+          "id": 820200,
+          "areaname": "离岛",
+          "shortname": "离岛",
+          "parentid": 820000,
+          "level": 2,
+          "childList": []
+        }
+      ]
+    }
+  ],
+  "content": null
+}
