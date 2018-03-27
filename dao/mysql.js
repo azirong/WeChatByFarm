@@ -10,9 +10,9 @@ var pool = mysql.createPool({
     database: config.database.DATABASE,
 })
 
-function query(sql,callback){
+function query(sql,values,callback){
     pool.getConnection(function(err,connection){
-        connection.query(sql, function (err,rows) {
+        connection.query(sql, values, function (err,rows) {
             callback(err,rows);
             connection.release();
         });

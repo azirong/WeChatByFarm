@@ -24,8 +24,9 @@ router.post('/signup', function(req, res) {
         req.body.pass,
         req.body.city
     ];
-    var sql = "insert into users (name,tele,pass,city) values('"+req.body.name+"','"+req.body.tele+"','"+req.body.pass+"', '"+req.body.city+"')";
-    userModel.query(sql,function(err,rows){
+   // var sql = "insert into users (name,tele,pass,city) values('"+req.body.name+"','"+req.body.tele+"','"+req.body.pass+"', '"+req.body.city+"')";
+    var sql = "insert into users (name,tele,pass,city) values(?,?,?,?)";
+    userModel.query(sql,user,function(err,rows){
         if(err){
             res.send("修改失败 " + err);
         }else {
