@@ -4,6 +4,7 @@ const express = require('express'), //express 框架
        cookieParser = require('cookie-parser'),
        bodyParser = require('body-parser'),
        config = require('./config');//引入配置文件
+const cookieSession = require('cookie-session');
 
 var users = require('./routes/users');
        
@@ -28,6 +29,20 @@ app.get('/getAccessToken',function(req,res){
     });    
 });
 
+//设置cookie，session
+app.use(cookieParser('Neal_signed'));
+(function () {
+    var arr = [];
+    for(var i = 0;i<10000;i++){
+        arr.push('keys_'+Math.random());
+    }
+    app.use(cookieSession({
+        name:'session_id',
+        keys:arr,
+        maxAge:20*60*1000//一般我会设置20分钟，这里是为了感受session过期~~带来的快感~?(●´∀｀●)ﾉ
+    }))
+})();
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -39,7 +54,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, './public')));    // 加载前端资源css、js、picture
 
 
-app.use('/users', users);
+app.use('/', users);
 
 //监听3000端口
 app.listen(80);

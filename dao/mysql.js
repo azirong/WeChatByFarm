@@ -19,30 +19,30 @@ function query(sql,values,callback){
     });
 }
 
-// let query = function( sql, values ) {
-//
-//     return new Promise(( resolve, reject ) => {
-//         pool.getConnection(function(err, connection) {
-//             if (err) {
-//                 reject( err )
-//             } else {
-//                 connection.query(sql, values, ( err, rows) => {
-//
-//                     if ( err ) {
-//                         reject( err )
-//                     } else {
-//                         resolve( rows )
-//                     }
-//                     connection.release()
-//                 })
-//             }
-//         })
-//     })
-//
-// }
+let query2 = function( sql, values ) {
+
+    return new Promise(( resolve, reject ) => {
+        pool.getConnection(function(err, connection) {
+            if (err) {
+                reject( err )
+            } else {
+                connection.query(sql, values, ( err, rows) => {
+
+                    if ( err ) {
+                        reject( err )
+                    } else {
+                        resolve( rows )
+                    }
+                    connection.release()
+                })
+            }
+        })
+    })
+
+}
 
 let createTable = function( sql ) {
-    return query( sql, [] )
+    return query2( sql, [] )
 }
 
 
@@ -54,12 +54,11 @@ let users =
      tele VARCHAR(100) NOT NULL,
      pass VARCHAR(100) NOT NULL,
      city VARCHAR(100) NOT NULL,
-     moment VARCHAR(100) NOT NULL,
      PRIMARY KEY ( id )
     );`
 
-// 建表
-// createTable(users)
+//建表
+createTable(users)
 
 // 注册用户
 let insertData = function( value ) {
@@ -67,8 +66,23 @@ let insertData = function( value ) {
     query2()
 }
 
+// 通过名字查找用户
+let findDataByName = function ( name, data ) {
+    let _sql = `select * from users where name="${name}";`
+    return query( _sql, [], function (err, rows) {
+        if (err) {
+            data["data"] = err;
+        } else if (rows.length) {
+            data["data"] = 1;
+
+        } else {
+            data["data"] = 3;
+        }
+    })
+}
+
 module.exports = {
     query,
     createTable,
-    insertData
+    insertData,
 };

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>注册</title>
+    <title>个人中心</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -12,6 +12,10 @@
     <link href="/css/common.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <style>
+        body {
+            font-family: "微软雅黑";
+            font-size: 1.5rem;
+        }
         .top-bar {
             width: 100%;
             height: 20%;
@@ -30,49 +34,44 @@
             text-align: center;
         }
         .user-info {
-            width: 75%;
+            /*width: 75%;*/
             position: relative;
             left: 0;
             right: 0;
             margin: auto;
         }
+        .form-group {
+            overflow: hidden;
+            border-bottom: 1px solid #dcdcdc;
+            background-color: white;
+        }
+        .left-title {
+            display: inline-block;
+            height: 34px;
+            line-height: 34px;
+        }
+        .form-group .right {
+            width: 50%;
+            border: none;
+            text-align: right;
+            float: right;
+            font-size: 1.5rem;
+        }
     </style>
 </head>
 <body class="bg-grey">
 
-<div class="top-bar">
-    <div class="title">农业大棚管理系统</div>
-</div>
-<hr>
-
-<form class="user-info" onSubmit="return checkMessage()">
+<form class="user-info">
     <div class="form-group">
-        <label for="userName"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;用户名</label>
-        <input name="userName" class="form-control" id="userName" >
+        <div class="left-title"><a href="#">< 返回</a></div>
+        <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="个人中心">
     </div>
     <div class="form-group">
-        <label for="telephone"><span class="glyphicon glyphicon-phone"></span>&nbsp;&nbsp;手机号</label>
-        <input name="telephone" class="form-control" id="telephone" >
+        <input name="telephone" class="form-control" id="telephone" disabled style=" background-color: white;">
     </div>
     <div class="form-group">
-        <label for="password"><span class="glyphicon glyphicon-lock"></span>&nbsp;&nbsp;密码</label>
         <input name="password" class="form-control" id="password" >
     </div>
-    <div class="form-group">
-        <label for="passwordChecked"><span class="glyphicon glyphicon-lock"></span>&nbsp;&nbsp;确认密码</label>
-        <input name="passwordChecked" class="form-control" id="passwordChecked">
-    </div>
-    <div class="form-group">
-        <label for="cities"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;所属城市</label>
-        <select class="selectpicker" id="cities" data-live-search="true">
-
-        </select>
-    </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-success" id="submit" >注册</button>
-        <a href="/login" style="margin-top: 10px;float: right">< 返回登录</a>
-    </div>
-
 </form>
 
 
@@ -122,8 +121,9 @@
             return false;
         }
         else {
+
             $.ajax({
-                url: "/signup",
+                url: "users/signup",
                 type: 'post',
                 data: {
                     name: userName,
@@ -131,31 +131,20 @@
                     pass: password,
                     city: city
                 },
-                dataType: 'text',
-                cache: false,
-                success: function(msg) {
-                    alert("signup");
-                    console.log(msg);
-                    if(msg == 3) {
+                dataType: 'json',
+                success: function(data) {
+                    console.log("signup")
+                    console.log(data);
+                    if(data.data == 3) {
                         alert("注册成功")
-                    }
-                    else if (msg == 'success') {
-                        alert("该用户已存在！")
-                        setTimeout(()=>{
-                            window.location.href="/login"
-                        },1000)
-                    }
-                    else {
-                        alert(msg);
+                    }else {
+                        alert("登录名已经有人用")
                     }
                 },
-                error: function (msg) {
-                    alert(msg);
+                error: function (data) {
                     console.log('error')
                 }
-            });
-
-            return false;
+            })
         }
         // return true;
     }

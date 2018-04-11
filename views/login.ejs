@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>注册</title>
+    <title>登录</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -59,20 +59,9 @@
         <input name="password" class="form-control" id="password" >
     </div>
     <div class="form-group">
-        <label for="passwordChecked"><span class="glyphicon glyphicon-lock"></span>&nbsp;&nbsp;确认密码</label>
-        <input name="passwordChecked" class="form-control" id="passwordChecked">
+        <button type="submit" class="btn btn-success" id="submit" >登录</button>
+        <a href="/signup" style="margin-top: 10px;float: right">< 注册</a>
     </div>
-    <div class="form-group">
-        <label for="cities"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;所属城市</label>
-        <select class="selectpicker" id="cities" data-live-search="true">
-
-        </select>
-    </div>
-    <div class="form-group">
-        <button type="submit" class="btn btn-success" id="submit" >注册</button>
-        <a href="/login" style="margin-top: 10px;float: right">< 返回登录</a>
-    </div>
-
 </form>
 
 
@@ -122,8 +111,9 @@
             return false;
         }
         else {
+
             $.ajax({
-                url: "/signup",
+                url: "users/signup",
                 type: 'post',
                 data: {
                     name: userName,
@@ -131,31 +121,20 @@
                     pass: password,
                     city: city
                 },
-                dataType: 'text',
-                cache: false,
-                success: function(msg) {
-                    alert("signup");
-                    console.log(msg);
-                    if(msg == 3) {
+                dataType: 'json',
+                success: function(data) {
+                    console.log("signup")
+                    console.log(data);
+                    if(data.data == 3) {
                         alert("注册成功")
-                    }
-                    else if (msg == 'success') {
-                        alert("该用户已存在！")
-                        setTimeout(()=>{
-                            window.location.href="/login"
-                        },1000)
-                    }
-                    else {
-                        alert(msg);
+                    }else {
+                        alert("登录名已经有人用")
                     }
                 },
-                error: function (msg) {
-                    alert(msg);
+                error: function (data) {
                     console.log('error')
                 }
-            });
-
-            return false;
+            })
         }
         // return true;
     }
