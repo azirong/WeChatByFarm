@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
     <script src="/js/laydate/laydate.js"></script>
+    <script src="/js/bootstrap-switch.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-switch.css"/>
     <link href="/css/common.css" rel="stylesheet">
     <link href="/css/style.css" rel="stylesheet">
     <style>
@@ -44,7 +46,7 @@
             border: 1px solid #dcdcdc;
             border-radius: 5px;
             height: 35px;
-            width: 50%;
+            width: 30%;
         }
         .table {
             font-size: 1.5rem;
@@ -57,86 +59,103 @@
         .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
             width: 50%;
         }
+        .table-bordered>tbody>tr>td {
+            text-align: center;
+            vertical-align: middle;
+        }
+
     </style>
 </head>
 <body class="bg-grey">
 
 <div class="top-bar">
     <img src="/images/logo.png" style="width: 15%;">
-    <label style="font-size: 2.5rem;">历史数据查询</label>
+    <label style="font-size: 2.5rem;">设备控制系统</label>
 </div>
 <div class="date-wrapper">
 
     <span>查询名称：</span>
     <select class="selectpicker" data-live-search="true" style="width: 50%;">
-        <option>温度</option>
-        <option>湿度</option>
-        <option>电量</option>
-        <option>光照强度</option>
-        <option>二氧化碳浓度</option>
+        <option>手动控制</option>
+        <option>自动控制</option>
+        <option>决策控制</option>
     </select>
     <br>
     <br>
-    <span>起始时间：</span>
+    <span>启动时间：</span>
     <input type="text" id="date" placeholder="yyyy-MM-dd">
+    <input type="text" id="date" placeholder="HH:mm:ss">
     <br>
     <br>
 
-    <span>结束时间：</span>
+    <span>关闭时间：</span>
     <input type="text" id="realTime" placeholder="yyyy-MM-dd">
+    <input type="text" id="date" placeholder="HH:mm:ss">
     <br>
     <br>
     <button class="btn btn-primary">确定</button>
 
     <br>
     <br>
-    <div id='main' style='width:100%;height:400px;'></div>
 </div>
-<hr>
+
+<table class="table table-striped table-bordered">
+    <tbody>
+    <tr>
+        <td style="width:30%;"><img src="/images/irrigation.png"></td>
+        <td>灌溉系统</td>
+        <td>
+            <div class="switch" id="mySwitch">
+                <input type="checkbox" checked data-on-text="YES" data-off-text="NO"/>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="width:30%;"><img src="/images/fan.png"></td>
+        <td>风机设备</td>
+        <td>
+            <div class="switch" id="mySwitch">
+                <input type="checkbox" checked data-on-text="YES" data-off-text="NO"/>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="width:30%;"><img src="/images/rollerShutters.png"></td>
+        <td>卷帘设备</td>
+        <td>
+            <div class="switch" id="mySwitch">
+                <input type="checkbox" checked data-on-text="YES" data-off-text="NO"/>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="width:30%;"><img src="/images/seedLamp.png"></td>
+        <td>育苗灯</td>
+        <td>
+            <div class="switch" id="mySwitch">
+                <input type="checkbox" checked data-on-text="YES" data-off-text="NO"/>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td style="width:30%;"><img src="/images/shadeNet.png"></td>
+        <td>遮阳网</td>
+        <td>
+            <div class="switch" id="mySwitch">
+                <input type="checkbox" checked data-on-text="YES" data-off-text="NO"/>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
 
 <script src='./js/echarts.min.js'></script>
 <script>
     $(function () {
-        //执行一个laydate实例
-        laydate.render({
-            elem: '#realTime', //指定元素
-        });
-        laydate.render({
-            elem: '#date', //指定元素
-        });
-
-        var myChart = echarts.init(document.getElementById('main'));
-        //指定图表的配置项和数据
-        var option = {
-            title:{
-                text:'温度'
-            },
-            //提示框组件
-            tooltip:{
-                //坐标轴触发，主要用于柱状图，折线图等
-                trigger:'axis'
-            },
-            //图例
-            legend:{
-                data:['摄氏度']
-            },
-            //横轴
-            xAxis:{
-                data : ['2018/1/1','2018/2/1','2018/3/1','2018/4/1']
-
-            },
-            //纵轴
-            yAxis:{},
-            //系列列表。每个系列通过type决定自己的图表类型
-            series:[{
-                name:'摄氏度',
-                //折线图
-                type:'line',
-                data:[10, 11, 20, 22]
-            }]
-        };
-        //使用刚指定的配置项和数据显示图表
-        myChart.setOption(option);
+        $(function(){
+            $('#mySwitch input').bootstrapSwitch();
+        })
     })
 
 

@@ -37,6 +37,12 @@ router.get('/historyData', function (req, res) {
 
 })
 
+// 控制设备页面
+router.get('/controller', function (req, res) {
+    res.render('controller', {})
+
+})
+
 // post 注册
 router.post('/signup', function(req, res, next) {
     let user = [
