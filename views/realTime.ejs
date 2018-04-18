@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+    <script src="/js/laydate/laydate.js"></script>
+    <link href="/css/common.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <style>
+        .top-bar {
+            width: 100%;
+            height: 15%;
+            position: relative;
+            left: 0;
+            top: 0;
+            text-align: center;
+            margin-top: 15px;
+            font-family: "微软雅黑";
+        }
+        .top-bar .title {
+            font-family: "微软雅黑";
+            font-size: 2.5rem;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            text-align: center;
+        }
+        .date-wrapper {
+            margin-left: 2.5rem;
+        }
+        .date-wrapper span {
+            font-size: 1.5rem;
+            font-family: "微软雅黑";
+        }
+        .date-wrapper input {
+            border: 1px solid #dcdcdc;
+            border-radius: 5px;
+            height: 35px;
+            width: 50%;
+        }
+        .table {
+            font-size: 1.5rem;
+            width: 90%;
+            position: relative;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body class="bg-grey">
+
+<div class="top-bar">
+    <img src="/images/logo.png" style="width: 15%;">
+    <label style="font-size: 2.5rem;">实时数据查询</label>
+</div>
+<div class="date-wrapper">
+
+    <span>选择日期：</span>
+    <input type="text" id="date" placeholder="yyyy-MM-dd">
+    <br>
+    <br>
+
+    <span>选择时间：</span>
+    <input type="text" id="realTime" placeholder="HH:mm:ss">
+    <br>
+    <br>
+    <button class="btn btn-primary">确定</button>
+</div>
+<hr>
+<table class="table table-striped table-bordered">
+    <thead>
+    <tr>
+        <th>环境因子</th>
+        <th>结果</th>
+        <th>单位</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>温度</td>
+        <td>10</td>
+        <td>℃</td>
+    </tr>
+    <tr>
+        <td>湿度</td>
+        <td>50</td>
+        <td>RH%</td>
+    </tr>
+    <tr>
+        <td>光照强度</td>
+        <td>150</td>
+        <td>cd</td>
+    </tr>
+    <tr>
+        <td>二氧化碳</td>
+        <td>640</td>
+        <td>ppm</td>
+    </tr>
+    <tr>
+        <td>电量</td>
+        <td>80</td>
+        <td>%</td>
+    </tr>
+    </tbody>
+</table>
+<script>
+    $(function () {
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#realTime', //指定元素
+            type: 'time'
+        });
+        laydate.render({
+            elem: '#date', //指定元素
+        });
+    })
+
+
+</script>
+</body>
+</html>

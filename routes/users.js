@@ -25,6 +25,18 @@ router.get('/personal', function (req, res) {
 
 })
 
+// 实时数据查询页面
+router.get('/realTime', function (req, res) {
+    res.render('realTime', {})
+
+})
+
+// 历史数据查询页面
+router.get('/historyData', function (req, res) {
+    res.render('historyData', {})
+
+})
+
 // post 注册
 router.post('/signup', function(req, res, next) {
     let user = [

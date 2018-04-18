@@ -44,11 +44,14 @@
             overflow: hidden;
             border-bottom: 1px solid #dcdcdc;
             background-color: white;
+            margin-bottom: 5px;
         }
         .left-title {
             display: inline-block;
             height: 34px;
             line-height: 34px;
+            margin-left: 1rem;
+            font-weight: bold;
         }
         .form-group .right {
             width: 50%;
@@ -56,6 +59,13 @@
             text-align: right;
             float: right;
             font-size: 1.5rem;
+        }
+        .none-border {
+            border-radius: 0px;
+            border-left: none;
+            border-right: none;
+            width: 50%;
+            display: inline-block;
         }
     </style>
 </head>
@@ -67,94 +77,46 @@
         <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="个人中心">
     </div>
     <div class="form-group">
-        <input name="telephone" class="form-control" id="telephone" disabled style=" background-color: white;">
+        <div class="left-title">用户名</div>
+        <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="******">
     </div>
     <div class="form-group">
-        <input name="password" class="form-control" id="password" >
+        <div class="left-title">密码</div>
+        <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="111111">
     </div>
+    <div class="form-group">
+        <div class="left-title">城市</div>
+        <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="北京">
+    </div>
+
+    <div class="form-group">
+        <div class="left-title">设备IP</div>
+        <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="192.168.1.0">
+    </div>
+    <div class="form-group">
+        <div class="left-title">设备端口号</div>
+        <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="80">
+    </div>
+    <div class="form-group">
+        <div class="left-title">作物种类</div>
+        <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="大豆">
+    </div>
+    <div class="form-group">
+        <div class="left-title">大棚面积</div>
+        <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="20亩">
+    </div>
+    <div class="form-group">
+        <div class="left-title">备注</div>
+        <input name="userName" class="form-control right" id="userName" disabled style="background-color: white;" value="暂无">
+    </div>
+    <button class="btn btn-success" style="margin-left: 20px;margin-top:10px;">修改</button>
 </form>
 
 
 <script>
     $(function () {
-        $.getJSON('/city.json', function (data) {
-            var cityData = data.info;
 
-            for (var i = 0; i < cityData.length; i++) {
-                var tempData = cityData[i];
-                if (tempData.childList.length === 1) {
-                    $("#cities").append("<option value='" + tempData.id + "'>" + tempData.areaname + "</option>");
-                }
-                else {
-                    for (var j = 0; j < tempData.childList.length; j++) {
-                        $("#cities").append("<option value='" + tempData.childList[j].id + "'>" + tempData.childList[j].areaname + "</option>");
-                    }
-                }
-            }
-
-            $('#cities').selectpicker('refresh');
-            $('#cities').selectpicker('render');
-        })
     })
-
-    //点击注册时，判断用户输入是否正确
-    function checkMessage() {
-        var userName = $('#userName').val().trim();
-        var password = $('#password').val().trim();
-        var telephone = $('#telephone').val().trim();
-        var passwordChecked = $('#passwordChecked').val().trim();
-        var city = $('#cities').find("option:selected").val().trim();
-        console.log(city)
-
-        if (!userName || !password || !telephone || !passwordChecked ) {
-            alert("请填写完整信息！");
-            return false;
-        }
-        else if (!checkMobile(telephone)) {
-            alert("请输入正确d手机号格式");
-            $('#telephone').focus();
-            return false;
-        }
-        else if (passwordChecked !== password) {
-            alert("两次输入密码不符");
-            $('#passwordChecked').focus();
-            return false;
-        }
-        else {
-
-            $.ajax({
-                url: "users/signup",
-                type: 'post',
-                data: {
-                    name: userName,
-                    tele: telephone,
-                    pass: password,
-                    city: city
-                },
-                dataType: 'json',
-                success: function(data) {
-                    console.log("signup")
-                    console.log(data);
-                    if(data.data == 3) {
-                        alert("注册成功")
-                    }else {
-                        alert("登录名已经有人用")
-                    }
-                },
-                error: function (data) {
-                    console.log('error')
-                }
-            })
-        }
-        // return true;
-    }
-
-    function checkMobile(number){
-        if(!(/^1[3|4|5|8][0-9]\d{4,8}$/.test(number))){
-            return false;
-        }
-        return true;
-    }
 </script>
 </body>
 </html>
