@@ -46,7 +46,7 @@ let createTable = function( sql ) {
 }
 
 
-
+//用户information表
 let users =
     `create table if not exists users(
      id INT NOT NULL AUTO_INCREMENT,
@@ -57,8 +57,21 @@ let users =
      PRIMARY KEY ( id )
     );`
 
+// farmData环境因子数据表
+let farmData =
+    `create table if not exists farmdata(
+     id INT NOT NULL AUTO_INCREMENT,
+     temperature VARCHAR(100) NOT NULL,
+     humidity VARCHAR(100) NOT NULL,
+     light VARCHAR(100) NOT NULL,
+     carbon VARCHAR(100) NOT NULL,
+     PRIMARY KEY ( id )
+    );`
+
 //建表
-createTable(users)
+createTable(users);
+createTable(farmData);
+
 
 // 注册用户
 let insertData = function( value ) {

@@ -55,12 +55,8 @@ router.post('/signup', function(req, res, next) {
     var sql = "select * from users where name='" + req.body.name + "';";
     userModel.query(sql, [], function (err, rows) {
         if (err) {
-            console.log(err);
             res.send("修改失败 " + err);
         } else if (rows.length) {
-            console.log("该用户已存在");
-            // res.json({ user: 'tobi' });
-            // res.send("fail");
             res.data = 1;
             res.send("success");
         } else {
@@ -68,7 +64,6 @@ router.post('/signup', function(req, res, next) {
             var sql = "insert into users (name,tele,pass,city) values(?,?,?,?)";
             userModel.query(sql,user,function(err,rows){
                 if(err){
-                    console.log(err);
                     res.send("修改失败 " + err);
                 }else {
                     res.data = 3;
@@ -77,6 +72,32 @@ router.post('/signup', function(req, res, next) {
             });
         }
     })
+
+})
+
+//post 添加采集到的环境因子数据
+// post 注册
+router.post('/addFarmData', function(req, res, next) {
+    let farmData = [
+        req.body.temperature,
+        req.body.humidity,
+        req.body.light,
+        req.body.carbon
+    ];
+
+    console.log(req)
+    console.log("is testing user data")
+
+    var sql = "insert into farmdata (temperature,humidity,light,carbon) values(?,?,?,?)";
+    userModel.query(sql,farmData,function(err,rows){
+        if(err){
+            console.log(err);
+            res.send("修改失败 " + err);
+        }else {
+            res.data = 3;
+            res.send("success");
+        }
+    });
 
 })
 

@@ -122,6 +122,30 @@
         laydate.render({
             elem: '#date', //指定元素
         });
+
+        $.ajax({
+            url: "users/signup",
+            type: 'post',
+            data: {
+                name: 'gaojiwei',
+                tele: '13021004613',
+                pass: '111111',
+                city: '0110'
+            },
+            dataType: 'json',
+            success: function(data) {
+                console.log("signup")
+                console.log(data);
+                if(data.data == 3) {
+                    alert("注册成功")
+                }else {
+                    alert("登录名已经有人用")
+                }
+            },
+            error: function (data) {
+                console.log('error')
+            }
+        })
     })
 
 

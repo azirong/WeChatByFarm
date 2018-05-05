@@ -138,15 +138,17 @@
                     console.log(msg);
                     if(msg == 3) {
                         alert("注册成功")
+                        return false;
                     }
-                    else if (msg == 'success') {
-                        alert("该用户已存在！")
-                        setTimeout(()=>{
-                            window.location.href="/login"
-                        },1000)
-                    }
+//                    else if (msg == 'success') {
+//                        alert("该用户已存在！")
+//                        setTimeout(()=>{
+//                            window.location.href="/login"
+//                        },1000)
+//                    }
                     else {
                         alert(msg);
+                        return false;
                     }
                 },
                 error: function (msg) {

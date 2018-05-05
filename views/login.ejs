@@ -92,11 +92,8 @@
         var userName = $('#userName').val().trim();
         var password = $('#password').val().trim();
         var telephone = $('#telephone').val().trim();
-        var passwordChecked = $('#passwordChecked').val().trim();
-        var city = $('#cities').find("option:selected").val().trim();
-        console.log(city)
 
-        if (!userName || !password || !telephone || !passwordChecked ) {
+        if (!userName || !password || !telephone) {
             alert("请填写完整信息！");
             return false;
         }
@@ -105,38 +102,47 @@
             $('#telephone').focus();
             return false;
         }
-        else if (passwordChecked !== password) {
-            alert("两次输入密码不符");
-            $('#passwordChecked').focus();
-            return false;
-        }
         else {
 
+//            $.ajax({
+//                url: "users/addFarmData",
+//                type: 'post',
+//                data: {
+//                    temperature: '0',
+//                    humidity: '0',
+//                    light: '0',
+//                    carbon: '8'
+//                },
+//                dataType: 'text',
+//                success: function(data) {
+//                    console.log("farmdata is add success")
+//                },
+//                error: function (data) {
+//                    console.log('error')
+//                }
+//            })
+
             $.ajax({
-                url: "users/signup",
+                url: "/addFarmData",
                 type: 'post',
                 data: {
-                    name: userName,
-                    tele: telephone,
-                    pass: password,
-                    city: city
+                    temperature: 'aaaaa',
+                    humidity: '1',
+                    light: '1',
+                    carbon: '1'
                 },
-                dataType: 'json',
-                success: function(data) {
-                    console.log("signup")
-                    console.log(data);
-                    if(data.data == 3) {
-                        alert("注册成功")
-                    }else {
-                        alert("登录名已经有人用")
-                    }
+                dataType: 'text',
+                cache: false,
+                success: function(msg) {
+                    console.log(msg)
                 },
-                error: function (data) {
+                error: function (msg) {
                     console.log('error')
                 }
-            })
+            });
+
+            return false;
         }
-        // return true;
     }
 
     function checkMobile(number){
