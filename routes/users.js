@@ -85,7 +85,7 @@ router.post('/addFarmData', function(req, res, next) {
         req.body.carbon
     ];
 
-    console.log(req)
+    console.log(req.body)
     console.log("is testing user data")
 
     var sql = "insert into farmdata (temperature,humidity,light,carbon) values(?,?,?,?)";

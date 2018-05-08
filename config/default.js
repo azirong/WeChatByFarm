@@ -5,7 +5,7 @@ const config = {
     database: {
         DATABASE: 'farmsql',
         USERNAME: 'root',
-        PASSWORD: '111111',
+        PASSWORD: '',
         PORT: '3306',
         HOST: 'localhost'
     }
