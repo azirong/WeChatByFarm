@@ -65,6 +65,8 @@ let farmData =
      humidity VARCHAR(100) NOT NULL,
      light VARCHAR(100) NOT NULL,
      carbon VARCHAR(100) NOT NULL,
+     electricity VARCHAR(100) NOT NULL,
+     time datetime DEFAULT  NULL,
      PRIMARY KEY ( id )
     );`
 
