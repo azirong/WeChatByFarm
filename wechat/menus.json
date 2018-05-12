@@ -1,37 +1,49 @@
 {
      "button":[
        {
-         "name":"智能监控",
+         "name":"数据监测",
          "sub_button":[{
                 "type":"view",
-                "name":"仪器控制",
+                "name":"实时数据",
                 "url": "http://www.baidu.com"
          },{
            "type":"view",
-           "name":"环境监测",
+           "name":"历史数据",
+           "url":"http://140.143.12.124:8888/"
+         },{
+           "type":"view",
+           "name":"天气数据",
            "url":"http://140.143.12.124:8888/"
          }]
        },
         {	
-          "type":"click",
-          "name":"新闻资讯",
-          "key":"today_recommend"
+          "type":"view",
+          "name":"设备控制",
+          "url":"http://140.143.12.124:8888/"
         },
         {	
           "name":"用户中心",
           "sub_button":[{
-               "type": "scancode_waitmsg", 
-               "name": "扫一扫",
-               "key": "scancode"
+              "type":"view",
+              "name":"注册",
+              "url": "http://www.baidu.com"
+            },{
+              "type":"view",
+              "name":"登录",
+              "url":"http://140.143.12.124:8888/"
+            },{
+              "type":"view",
+              "name":"用户信息",
+              "url":"http://140.143.12.124:8888/"
+            },{
+            "type":"view",
+            "name":"用户信息",
+            "url":"http://140.143.12.124:8888/"
           },{
-               "type": "pic_sysphoto", 
-               "name": "系统拍照发图",
-                "key": "take_photo"
-          },{
-            "type": "location_select", 
-            "name": "发送位置",
-            "key": "send_location"
-        }]
+            "type":"view",
+            "name":"平台说明",
+            "url":"http://140.143.12.124:8888/"
+          }]
         }
      ]
 }
