@@ -75,7 +75,6 @@ router.post('/signup', function(req, res, next) {
 
 })
 
-//post 添加采集到的环境因子数据
 // post 注册
 router.post('/addFarmData', function(req, res, next) {
     let farmData = [
@@ -96,6 +95,25 @@ router.post('/addFarmData', function(req, res, next) {
         }else {
             res.data = 3;
             res.send("success");
+        }
+    });
+
+})
+
+// 获取实时数据
+router.post('/getRealTime', function(req, res, next) {
+    let realTime = req.body.realTime;
+
+    var sql = "select * from farmdata where time='" + realTime + "';";
+    userModel.query(sql,[],function(err,rows){
+        if (err) {
+            res.send("修改失败 " + err);
+        } else if (rows.length) {
+            res.data = 1;
+            res.send(rows);
+        } else {
+            res.data = 0;
+            res.send("fail");
         }
     });
 
